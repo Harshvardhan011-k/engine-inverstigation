@@ -42,6 +42,11 @@ dist/
 *.npy
 *.npz
 
+# Whitelist our project's saved models (small, necessary for deployment)
+!backend/saved_models/
+!backend/saved_models/*
+!backend/saved_models/**
+
 # Logs
 *.log
 logs/
